@@ -8,7 +8,7 @@ int Parent(int i) {
 
 void HeapIncreaseKey(vector<int>& A, int i, int key) {
 	if (key < A[i]) {
-		return 1 << 31;
+		return;
 	}
 	A[i] = key;
 	int par = Parent(i);
