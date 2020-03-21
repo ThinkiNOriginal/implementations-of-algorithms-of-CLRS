@@ -11,9 +11,7 @@ int Right(int i) {
 	return 2 * i + 1;
 }
 
-int Parent(int i) {
-	return i >> 1;
-}
+
 
 void MaxHeapify(vector<int>& A, int i, int heapSize) {
 	int l = Left(i);
