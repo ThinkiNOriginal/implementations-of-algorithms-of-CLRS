@@ -17,5 +17,5 @@ struct Node {
 
 
 struct BST {
-	Node* head = nullptr;
+	Node* root = nullptr;
 };
